@@ -34,7 +34,7 @@ int main(int argc, char** argv) {
     FrameBuffer frame_buffer(rate, frameHeight, frameWidth);
 
     // Create a window to display the video
-    cv::namedWindow("Webcam", cv::WINDOW_FULLSCREEN);
+    cv::namedWindow("Webcam", cv::WINDOW_AUTOSIZE);
 
     // Loop to capture frames and display them
     while (true) {
