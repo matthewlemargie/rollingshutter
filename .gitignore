@@ -1,0 +1,7 @@
+/Debug
+/Release
+/opencv
+/x64
+/rolling shutter
+
+*vcxproj*
