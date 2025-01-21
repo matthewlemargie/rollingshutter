@@ -1,0 +1,1 @@
+g++ -o main main.cpp FrameBuffer.cpp FrameBuffer.h -lopencv_core -lopencv_highgui -lopencv_videoio -lopencv_imgcodecs -lopencv_imgproc 
